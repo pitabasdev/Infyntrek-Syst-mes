@@ -132,7 +132,7 @@ const Privacy = () => {
                       Our Commitment to Privacy
                     </h2>
                     <p className="text-finance-gray leading-relaxed">
-                      FinanceStream Solutions & Services ("we," "our," or "us")
+                      Infyntrek Systèmes ("we," "our," or "us")
                       respects your privacy and is committed to protecting your
                       personal information. This Privacy Policy describes how we
                       collect, use, disclose, and safeguard your information
@@ -200,7 +200,7 @@ const Privacy = () => {
                       Email Us
                     </h3>
                     <p className="text-finance-gray">
-                      privacy@financestream.com
+                      privacy@infyntrek.in
                     </p>
                   </div>
                   <div className="text-center">
@@ -208,7 +208,7 @@ const Privacy = () => {
                     <h3 className="font-semibold text-finance-navy mb-2">
                       Call Us
                     </h3>
-                    <p className="text-finance-gray">+1 (206) 555-0123</p>
+                    <p className="text-finance-gray">+91 63719 76430</p>
                   </div>
                 </div>
                 <div className="mt-8 text-center">

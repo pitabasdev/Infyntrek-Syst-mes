@@ -15,7 +15,7 @@ const Terms = () => {
     {
       title: "Acceptance of Terms",
       content: [
-        "By accessing and using FinanceStream Solutions & Services' website and services, you accept and agree to be bound by these Terms of Service.",
+        "By accessing and using Infyntrek Systèmes' website and services, you accept and agree to be bound by these Terms of Service.",
         "If you do not agree to these terms, please do not use our services or website.",
         "These terms apply to all visitors, users, and customers of our services.",
         "Your continued use of our services constitutes acceptance of any updates to these terms.",
@@ -170,8 +170,7 @@ const Terms = () => {
                     </h2>
                     <p className="text-finance-gray leading-relaxed mb-4">
                       These Terms of Service ("Terms") constitute a legally
-                      binding agreement between you and FinanceStream Solutions
-                      & Services ("Company," "we," "us," or "our") regarding
+                      binding agreement between you and Infyntrek Systèmes ("Company," "we," "us," or "our") regarding
                       your use of our website, services, and products.
                     </p>
                     <div className="bg-finance-light p-4 rounded-lg">
@@ -242,7 +241,7 @@ const Terms = () => {
                   </p>
                   <div className="space-y-2 text-sm text-finance-gray mb-6">
                     <p>Email: info@infyntrek.in</p>
-                    <p>Phone: +91 63719 764303</p>
+                    <p>Phone: +91 63719 76430</p>
                   </div>
                   <Button asChild>
                     <Link to="/contact">Contact Legal Team</Link>
