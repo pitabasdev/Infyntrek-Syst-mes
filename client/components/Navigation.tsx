@@ -30,8 +30,8 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
-            <div className="w-10 h-10 bg-gradient-to-br from-finance-blue to-finance-navy rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">FS</span>
+            <div className="w-10 h-10  from-finance-blue to-finance-navy rounded-lg flex items-center justify-center">
+              <img src="/infotact logo.png" alt="logo" />
             </div>
             <div className="hidden sm:block">
               <span className="text-xl font-bold text-finance-navy">

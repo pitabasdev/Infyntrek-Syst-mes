@@ -639,7 +639,7 @@ const Team = () => {
               <Button
                 size="lg"
                 variant="outline"
-                className="border-white/30 text-white hover:bg-white/10"
+                className="border-white/30 bg-white/10 text-white hover:bg-white/10"
                 asChild
               >
                 <Link to="/contact">Get in Touch</Link>

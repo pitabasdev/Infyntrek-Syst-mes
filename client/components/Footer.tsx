@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Mail, Phone, MapPin, Linkedin, Twitter, Github } from "lucide-react";
+import { Mail, Phone, MapPin, Linkedin, Twitter, Github,Facebook, Instagram } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -25,13 +25,13 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a
-                href="#"
+                href="https://www.linkedin.com/company/infyntrek-systemes/"
                 className="w-10 h-10 bg-finance-blue/20 rounded-lg flex items-center justify-center hover:bg-finance-blue/30 transition-colors"
               >
                 <Linkedin className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://x.com/infyntreksys"
                 className="w-10 h-10 bg-finance-blue/20 rounded-lg flex items-center justify-center hover:bg-finance-blue/30 transition-colors"
               >
                 <Twitter className="w-5 h-5" />
@@ -40,7 +40,13 @@ const Footer = () => {
                 href="#"
                 className="w-10 h-10 bg-finance-blue/20 rounded-lg flex items-center justify-center hover:bg-finance-blue/30 transition-colors"
               >
-                <Github className="w-5 h-5" />
+                <Facebook className="w-5 h-5" />
+              </a>
+                      <a
+                href="#"
+                className="w-10 h-10 bg-finance-blue/20 rounded-lg flex items-center justify-center hover:bg-finance-blue/30 transition-colors"
+              >
+                <Instagram className="w-5 h-5" />
               </a>
             </div>
           </div>
@@ -112,21 +118,21 @@ const Footer = () => {
               <Mail className="w-5 h-5 text-finance-gold" />
               <div>
                 <div className="text-sm text-gray-300">Email</div>
-                <div className="font-medium">contact@financestream.com</div>
+                <div className="font-medium">contact@infyntrek.in</div>
               </div>
             </div>
             <div className="flex items-center space-x-3">
               <Phone className="w-5 h-5 text-finance-gold" />
               <div>
                 <div className="text-sm text-gray-300">Phone</div>
-                <div className="font-medium">+91 98765 43210</div>
+                <div className="font-medium">+91 63719 76430</div>
               </div>
             </div>
             <div className="flex items-center space-x-3">
               <MapPin className="w-5 h-5 text-finance-gold" />
               <div>
                 <div className="text-sm text-gray-300">Address</div>
-                <div className="font-medium">Mumbai, Maharashtra, India</div>
+                <div className="font-medium">Remote, India</div>
               </div>
             </div>
           </div>

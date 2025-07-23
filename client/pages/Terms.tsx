@@ -241,8 +241,8 @@ const Terms = () => {
                     clarification, please contact our legal team.
                   </p>
                   <div className="space-y-2 text-sm text-finance-gray mb-6">
-                    <p>Email: legal@financestream.com</p>
-                    <p>Phone: +1 (206) 555-0123</p>
+                    <p>Email: info@infyntrek.in</p>
+                    <p>Phone: +91 63719 764303</p>
                   </div>
                   <Button asChild>
                     <Link to="/contact">Contact Legal Team</Link>

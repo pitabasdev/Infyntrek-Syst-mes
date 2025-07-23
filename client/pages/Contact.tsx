@@ -63,16 +63,16 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email Us",
-      primary: "hello@infyntrek.com",
-      secondary: "support@infyntrek.com",
+      primary: "hello@infyntrek.in",
+      secondary: "support@infyntrek.in",
       description: "Get in touch for general inquiries or support",
       available: "24/7 Response",
     },
     {
       icon: Phone,
       title: "Call Us",
-      primary: "+1 (206) 555-0123",
-      secondary: "+91 98765 43210",
+      primary: "+91 63719 76430",
+
       description: "Speak directly with our team",
       available: "Mon-Fri, 9AM-6PM PST",
     },

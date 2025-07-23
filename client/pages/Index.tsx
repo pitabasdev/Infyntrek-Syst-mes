@@ -170,11 +170,21 @@ const Index = () => {
       <div className="bg-gradient-to-r from-finance-gold to-yellow-400 text-finance-navy py-3">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-center space-x-3 text-center">
-            <Megaphone className="w-5 h-5" />
-            <span className="font-semibold">
-              🚀 We're Hiring Aggressively – Join Our Growing Team of 84+
-              Professionals!
-            </span>
+            {/* Desktop view - show all content */}
+            <div className="hidden md:flex items-center space-x-3">
+              <Megaphone className="w-5 h-5" />
+              <span className="font-semibold">
+                🚀 We're Hiring Aggressively – Join Our Growing Team of 84+ Professionals!
+              </span>
+            </div>
+
+            {/* Mobile view - show shortened content */}
+            <div className="md:hidden flex items-center space-x-3">
+              <span className="font-semibold">
+                🚀We're Hiring Join Our Team
+              </span>
+            </div>
+
             <Button
               size="sm"
               variant="ghost"
@@ -229,7 +239,7 @@ const Index = () => {
                 <Button
                   size="lg"
                   variant="outline"
-                  className="border-white/30 text-white hover:bg-white/10"
+                  className="border-white/30 bg-white/10 text-white hover:bg-white/10"
                   asChild
                 >
                   <Link to="/contact">Get Custom Solution</Link>
@@ -310,9 +320,8 @@ const Index = () => {
                 return (
                   <div
                     key={index}
-                    className={`flex flex-col lg:flex-row items-center gap-8 ${
-                      isEven ? "lg:flex-row" : "lg:flex-row-reverse"
-                    }`}
+                    className={`flex flex-col lg:flex-row items-center gap-8 ${isEven ? "lg:flex-row" : "lg:flex-row-reverse"
+                      }`}
                   >
                     <div className="flex-1 lg:max-w-md">
                       <Card className="border-2 hover:border-finance-blue/30 transition-colors bg-white">
@@ -632,7 +641,7 @@ const Index = () => {
               <Button
                 size="lg"
                 variant="outline"
-                className="border-white/30 text-white hover:bg-white/10"
+                className="border-white/30v bg-white/10 text-white hover:bg-white/10"
                 asChild
               >
                 <Link to="/contact">Partner With Us</Link>
