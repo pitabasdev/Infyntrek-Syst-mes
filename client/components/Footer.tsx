@@ -9,9 +9,9 @@ const Footer = () => {
           {/* Company Info */}
           <div className="col-span-1 lg:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-finance-blue to-finance-gold rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">FS</span>
-              </div>
+               <div className="w-10 h-10  from-finance-blue to-finance-navy rounded-lg flex items-center justify-center">
+              <img src="/infotact logo.png" alt="logo" />
+            </div>
               <div>
                 <span className="text-xl font-bold">Infyntrek Systèmes</span>
                 <div className="text-sm text-gray-300">Fintech Innovation</div>
@@ -37,13 +37,13 @@ const Footer = () => {
                 <Twitter className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://www.facebook.com/profile.php?id=61578475207038"
                 className="w-10 h-10 bg-finance-blue/20 rounded-lg flex items-center justify-center hover:bg-finance-blue/30 transition-colors"
               >
                 <Facebook className="w-5 h-5" />
               </a>
                       <a
-                href="#"
+                href="https://www.instagram.com/infyntrek_systemes"
                 className="w-10 h-10 bg-finance-blue/20 rounded-lg flex items-center justify-center hover:bg-finance-blue/30 transition-colors"
               >
                 <Instagram className="w-5 h-5" />
